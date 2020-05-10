@@ -1,0 +1,21 @@
+@media(min-width: 1101px) {
+  .yoshi {
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 1100px) {
+  .maker {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .yoshi {
+    font-size: 10px;
+  }
+}
+
+@media(max-width: 670px) {
+  .maker {
+    width: 100%;
+  }
+}
