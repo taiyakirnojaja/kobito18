@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  height: 70px;
+  width: 80px;
+}
+
+.top-wrapper {
+  width: 100%;
+  padding: 180px 0 100px 0;
+  background-image: url("https://backgrounds-free.com/material/091-backgrounds-free.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  color: white;
+  opacity: 0.7;
+  font-size: 80px;
+}
+
+.top-wrapper p {
+  color: white;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.maker-wrapper {
+  background-color: #009999;
+  padding: 40px 5% 80px 5%;
+  text-align: center;
+}
+
+.maker-title {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+}
+
+.maker {
+  width: 20%;
+  float: left;
+}
+
+.maker-icon {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.maker-icon a {
+  background-color: #ccffff;
+  line-height: 70px;
+  padding: 50px 40px;
+  margin: 10px;
+  display: block;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.maker-icon a:hover {
+  background-color: white;
+}
+
+.as {
+  color: #0000cc;
+}
+
+.mz {
+  color: #00f;
+}
+
+.nk {
+  color: #ff5f17;
+}
+
+.ad {
+  color: black;
+}
+
+.nb {
+  color: red;
+}
+
+.bottom-wrapper {
+  background-color: #0099cc;
+  padding: 40px 5% 80px 5%;
+  text-align: center;
+  border-bottom: 1px solid teal;
+}
+
+.bottom-wrapper h3 {
+  padding-bottom: 30px;
+}
+
+.yoshi {
+  font-size: 5px;
+  color: white;
+  padding: 15px 100px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 7px silver;
+  border-radius: 5px;
+}
+
+.yoshi:active {
+  background-color: #5dca88;
+  position: relative;
+ top: 7px;
+ box-shadow: none;
+}
+
+
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #444444;
+  text-align: center;
+}
+
+footer .tool  {
+  width: 120px;
+}
